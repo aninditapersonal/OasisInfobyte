@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#part3 {
+    min-height: 100vh;
+    background-color: rgb(55, 45, 45);
+}
+#part3 .container {
+    padding: 80px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#part3 .cont {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    width: 35%;
+}
+#part3 #para {
+    display: flex;
+    flex-direction: column;
+}
+#part3 #img img {
+    width: 80%;
+}
+#part3 h1 {
+    color: white;
+    padding-bottom: 25px;
+}
+#part3 span {
+    color: burlywood;
+    padding-bottom: 40px;
+}
+#part3 a, #part3 i {
+    color: yellow;
+}
+#part3 i {
+    margin-left: 30px;
+}
+#part3 a {
+    align-self: flex-start;
+}

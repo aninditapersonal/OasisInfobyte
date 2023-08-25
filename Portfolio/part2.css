@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#part2 {
+    background-color: rgb(37, 40, 40);
+    min-height: 100vh;
+}
+#part2 .conatainer {
+    max-width: 1000px;
+}
+#part2 .cont1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 50px 0px;
+    column-gap: 100px;
+}
+#part2 .para {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#part2 h2 {
+    color: white;
+}
+#part2 span {
+    color: burlywood;
+}
+#part2 .num {
+    display: flex;
+    flex-direction: row;
+    color: yellow;
+    font-size: x-large;
+    column-gap: 20px;
+    padding-top: 30px;
+    align-items: flex-end;
+}
+#part2 .num p {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    max-width: 30%;
+}
+#part2 .cont2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+#part2 .box {
+    background-color: rgb(65, 65, 65);
+    flex: 1;
+    padding: 30px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: flex-end;
+}
+#part2 .num-cont {
+    display: flex;
+}
+#part2 .box-cont {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#part2 .box-para {
+    display: flex;
+    column-gap: 16px;
+}
+#part2 a {
+    color: yellow;
+    align-self: flex-start;
+}
+#part2 .box i {
+    color: white;
+    font-size: 28px;
+}
+#part2 .cont1 a i {
+    margin-left: 16px;
+}

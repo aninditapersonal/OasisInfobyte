@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#part4 {
+    min-height: 100vh;
+    background-color: rgb(37, 40, 40);
+}
+#part4 .container {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+#part4 .cont {
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+}
+#part4 .para {
+    margin: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+#part4 .date {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    border-bottom: 1px solid gray;
+}
+#part4 .date h4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#part4 img {
+    max-width: 250px;
+}
+#part4 h1, #part4 h4 {
+    color: white;
+}
+#part4 span {
+    color: burlywood;
+}
+#part4 i {
+    color: yellow;
+}
